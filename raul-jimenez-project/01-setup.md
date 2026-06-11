@@ -1,7 +1,7 @@
 # ⚙️ PART 1 — ONE-TIME SETUP (MacBook)
 **Time: 30–40 min, mostly waiting on downloads. Do once, never again.**
 
----
+-
 
 ## STEP 1 — Homebrew + core tools (10 min)
 

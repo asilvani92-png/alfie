@@ -1,0 +1,12 @@
+{
+  "name": "Auto Commit & Push on Save",
+  "version": "1.0.0",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["**/*"]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "bash -c 'changed=$(git diff --name-only HEAD | wc -l | tr -d \" \") && if [ \"$changed\" -gt \"0\" ]; then version=$(git rev-list --count HEAD) && git add -A && git commit -m \"V $version\" && git push origin main; fi'"
+  }
+}
