@@ -1,0 +1,3 @@
+*.psd,*.webm,*mp4 filter=lfs diff=lfs merge=lfs -text
+raul-jimenez-project/footage/goldcup_final_2025.webm filter=lfs diff=lfs merge=lfs -text
+raul-jimenez-project/footage/*.webm filter=lfs diff=lfs merge=lfs -text
