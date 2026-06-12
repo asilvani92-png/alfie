@@ -1,0 +1,149 @@
+COLUMN MAP — EXACT POSITIONS FOR EVERY SHEET
+Use this to verify any formula before you paste it.
+
+================================================================================
+01_Master_Production_Pipeline.csv
+================================================================================
+A  | Content_ID
+B  | Week
+C  | Status
+D  | Content_Angle
+E  | Concept_Title
+F  | Platform
+G  | Target_Duration
+H  | Hook_Text
+I  | Shot_Type
+J  | Subject
+K  | Action
+L  | Style
+M  | Camera_Movement
+N  | Audio_Cues
+O  | Negative_Prompts
+P  | Seed_Number
+Q  | Variation_Number
+R  | JSON_Prompt_Template
+S  | Footage_Assets
+T  | Footage_Type_MP4_or_Page
+U  | Gap_Coverage_Method
+V  | Publish_Date
+W  | Views
+X  | Watch_Time_Avg
+Y  | Engagement_Rate
+Z  | CTR
+AA | Winning_Formula
+AB | Reused_From
+AC | Notes
+AD | [ADD NEW] Historical_ROE
+AE | [ADD NEW] Template_Name_Lookup
+AF | [ADD NEW] Auto_Flag
+
+================================================================================
+04_Metrics_Dashboard.csv
+================================================================================
+A  | Content_ID
+B  | Week
+C  | Platform
+D  | Concept_Angle
+E  | Template_Used
+F  | Views_24h
+G  | Views_48h
+H  | Views_7d
+I  | Watch_Time_Avg_Sec
+J  | Completion_Rate
+K  | Engagement_Rate
+L  | CTR_Shares
+M  | CTR_Saves
+N  | CTR_Comments
+O  | CTR_Likes
+P  | Share_Rate
+Q  | Save_Rate
+R  | Follower_Growth_7d
+S  | Algorithm_Bucket
+T  | Retention_Graph_Pattern
+U  | Winning_Formula_Score
+V  | Reused_Next_Week
+W  | Production_Hours
+X  | Cost_Stock
+Y  | Cost_Audio
+Z  | Total_Cost
+AA | ROE_Score
+AB | Notes
+
+================================================================================
+02_Prompt_Library_Templates.csv
+================================================================================
+A  | Template_ID
+B  | Template_Name
+C  | Category
+D  | Content_Angle
+E  | Best_Platform
+F  | Use_Count
+G  | Win_Rate
+H  | Shot_Type
+I  | Subject
+J  | Action
+K  | Style
+L  | Camera_Movement
+M  | Audio_Cues
+N  | Negative_Prompts
+O  | Recommended_Seed_Range
+P  | Best_Performing_Seed
+Q  | Notes
+R  | Example_JSON
+
+================================================================================
+05_Asset_Gap_Stock_Keywords.csv
+================================================================================
+A  | Content_ID
+B  | Story_Beat
+C  | Gap_Description
+D  | Why_It_Matters
+E  | Coverage_Method
+F  | Stills_Narration_Treatment
+G  | Stock_Search_Keywords_1
+H  | Stock_Search_Keywords_2
+I  | Stock_Search_Keywords_3
+J  | Stock_Search_Keywords_4
+K  | Stock_Cost_Estimate
+L  | Stock_Source
+M  | Status
+N  | Notes
+
+================================================================================
+03_Weekly_Content_Calendar.csv
+================================================================================
+A  | Week_Start
+B  | Week_ID
+C  | Monday_Research_Topics
+D  | Monday_Assigned_To
+E  | Monday_Deliverables
+F  | Tuesday_Generate_List
+G  | Tuesday_Seed_Range
+H  | Tuesday_Variations_Per_Concept
+I  | Tuesday_Assigned_To
+J  | Wednesday_Generate_List
+K  | Wednesday_Seed_Range
+L  | Wednesday_Variations_Per_Concept
+M  | Wednesday_Assigned_To
+N  | Thursday_Select_Winners
+O  | Thursday_Criteria
+P  | Thursday_Assigned_To
+Q  | Friday_Finalize_Schedule
+R  | Friday_Platforms
+S  | Friday_Negative_Check
+T  | Friday_Assigned_To
+U  | Saturday_Sunday_Publish_Monitor
+V  | Weekend_Metrics_Review
+W  | Weekend_Top_Performer
+
+================================================================================
+HOW TO COUNT COLUMN NUMBERS FOR VLOOKUP
+================================================================================
+A=1  B=2  C=3  D=4  E=5  F=6  G=7  H=8  I=9  J=10
+K=11 L=12 M=13 N=14 O=15 P=16 Q=17 R=18 S=19 T=20
+U=21 V=22 W=23 X=24 Y=25 Z=26 AA=27 AB=28 AC=29 AD=30
+AE=31 AF=32 AG=33 AH=34 AI=35 AJ=36 AK=37 AL=38 AM=39
+
+Example: VLOOKUP(...,Metrics_Dashboard!A:AA,27,FALSE) = returns column AA (ROE_Score)
+
+================================================================================
