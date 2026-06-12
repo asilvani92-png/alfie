@@ -1,4 +1,4 @@
-# 🎯 PART 2D — JIMÉNEZ SEARCH TARGETS
+    # 🎯 PART 2D — JIMÉNEZ SEARCH TARGETS
 ## Exact matches, dates & API queries — what to search, where it lives, and what the API will/won't have
 
 > **Reality check first:** Highlightly's deep coverage skews recent (their own examples start ~2023). Expect: **2023–2026 = good API territory · 2018–2022 = thin/hidden on free tier · pre-2018 = not API material.** That's fine — the doc plan uses stills/narration for old beats and `yt-dlp` for archive footage. The World Cup 2026 only started **today (11 June)**, so there are no Jiménez WC2026 highlights *yet* — his value there is the **reactive pipeline** for upcoming Mexico matches, not the archive.

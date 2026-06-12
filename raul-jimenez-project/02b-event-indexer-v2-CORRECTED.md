@@ -34,7 +34,7 @@ export RAPIDAPI_KEY="your-key"          # already in your ~/.zshrc from setup
 
 ### Step 1 — find team IDs (now also prints club vs national `type`)
 ```bash
-rj   # alias: activates .venv + cd /Users/alfie/Downloads/faceless-football/raul-jimenez-project/scripts
+rj   # alias: activates .venv + cd /Users/alfie/Documents/Apps/faceless-football/raul-jimenez-project/scripts
 python3 jimenez_indexer_v2.py --find-teams
 ```
 Pick the **national** Mexico entry, note Wolves' and Fulham's ids.

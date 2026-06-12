@@ -334,7 +334,5 @@ lengths subtitle-safe (≤42 chars/line).
 
 ## 🔁 THE META-PROMPT (when any output disappoints)
 ```
-Rewrite. Rules: cut 20% of words. Shorter sentences. Replace every generic
-phrase with a specific fact or image. The first line must be impossible to
-scroll past. Keep the structure and facts identical.
+Rewrite. Rules: cut 20% of words. Shorter sentences. Replace every generic phrase with a specific fact or image. The first line must be impossible to scroll past. Keep the structure and facts identical.
 ```

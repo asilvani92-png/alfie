@@ -28,7 +28,7 @@ yt-dlp --version
 
 ```bash
 # Activate (every new Terminal session):
-source /Users/alfie/Downloads/faceless-football/raul-jimenez-project/.venv/bin/activate
+source /Users/alfie/Documents/Apps/faceless-football/raul-jimenez-project/scripts/.venv/bin/activate
 
 # Install/verify packages INSIDE it:
 pip install requests numpy openai-whisper
@@ -38,14 +38,14 @@ pip install ultralytics opencv-python
 
 **One-time shortcut so you never forget:**
 ```bash
-echo 'alias rj="source /Users/alfie/Downloads/faceless-football/raul-jimenez-project/.venv/bin/activate && cd /Users/alfie/Downloads/faceless-football/raul-jimenez-project/scripts"' >> ~/.zshrc
+echo 'alias rj="source /Users/alfie/Documents/Apps/faceless-football/raul-jimenez-project/scripts/.venv/bin/activate && cd /Users/alfie/Documents/Apps/faceless-football/raul-jimenez-project/scripts/scripts"' >> ~/.zshrc
 source ~/.zshrc
 ```
 From now on: open Terminal → type `rj` → ready.
 
 ## STEP 3 — Project folder (2 min)
 
-> ✅ **DONE on your machine:** `/Users/alfie/Downloads/faceless-football/raul-jimenez-project`
+> ✅ **DONE on your machine:** `/Users/alfie/Documents/Apps/faceless-football/raul-jimenez-project/scripts`
 
 ```bash
 rj    # (or activate + cd manually)

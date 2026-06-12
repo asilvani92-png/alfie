@@ -1,0 +1,19 @@
+FOOTBALL TEAM ID FOR API -
+
+=== Searching teams: Wolves ===
+  id=33973    Wolves
+  id=11485029 Wolves
+
+=== Searching teams: Fulham ===
+  id=31420    Fulham
+
+=== Searching teams: Mexico ===
+  id=14400    Mexico
+
+
+
+https://github.com/asilvani92-png/alfie
+
+READ ENTIRE GITHUB REPO FROM THE ABOVE LINK. NOT ANY OTHER REPOS FROM asilvani92-png
+
+LEARN FROM ANY SKILLS RELEVANT FOR SHORT FORM/TIKTOK CLIP GENERATING.
